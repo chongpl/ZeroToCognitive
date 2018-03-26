@@ -2,9 +2,9 @@ applications:
 - path: .
   memory: 128M
   instances: 1
-  domain: mybluemix.net
-  name: Z2C-rddill
-  host: Z2C
+  domain: cpl.mybluemix.net
+  name: Z2C-cpl-app
+  host: Z2C-cpl
   disk_quota: 1024M
   services:
-    - Speech to Text-xx
+    - Speech to Text-5t
