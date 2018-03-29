@@ -17,6 +17,7 @@ var extend = require('extend');
 var cfenv = require('cfenv');
 var watson = require('watson-developer-cloud');
 var WATSON_NLC_SERVICE_NAME = "Watson-NLC-Service";
+// Credential
 var config = require("../../env.json");
 
 var appEnv = cfenv.getAppEnv();

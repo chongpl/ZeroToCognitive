@@ -3,10 +3,10 @@ applications:
   memory: 256M
   instances: 1
   domain: mybluemix.net
-  name: Z2C
-  host: Z2C
+  name: Z2C-cpl-app
+  host: Z2C-cpl
   disk_quota: 1024M
   services:
-    - Speech to Text-xx
-    - Text to Speech-xx
-    - Natural Language Classifier-xx
+    - Speech to Text-5t
+    - Text to Speech-uz
+    - natural-language-classif-natural-la-1522303182970
