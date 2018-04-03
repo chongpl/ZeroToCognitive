@@ -23,8 +23,8 @@ function checkNLC(_display, _source)
 {
   // create an empty options object to hold information to send in the post command
   var options = {};
-  // get the text from the browser and put it into the options object. Change innerHTML to innerText
-  options.cquery = _source[0].innerText;
+  // get the text from the browser and put it into the options object. Change innerText to innerHTML
+  options.cquery = _source[0].innerHTML;
   // get the display page and post the classification request
   $.when($.get(_display), $.post('/api/understand/classifyInd', options)).done(function(_page, _nlc_results){
     console.log("page returned");

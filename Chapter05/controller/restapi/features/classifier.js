@@ -24,7 +24,7 @@ var appEnv = cfenv.getAppEnv();
 
 var serviceCreds = appEnv.getServiceCreds(WATSON_NLC_SERVICE_NAME) || process.env.NLC_CREDS || config.watson_nlc;
 var natural_language_classifier = watson.natural_language_classifier(serviceCreds);
-var classifier_id_industry = process.env.NLC_CLASSIFIER_ID || "2fbbc6x326-nlc-1720";
+var classifier_id_industry = process.env.NLC_CLASSIFIER_ID || "842c77x336-nlc-53";
 
 /**
  * This takes the provided text and delivers it to the classifier you've previously built 
